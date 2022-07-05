@@ -46,6 +46,6 @@ class ParseLogs {
 	
     }
 }
-$obj = new ParseLogs();
-$obj->parse($argv[1]);
+$ParseObject = new ParseLogs();
+$ParseObject->parse($argv[1]);
 ?>

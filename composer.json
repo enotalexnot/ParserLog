@@ -1,0 +1,5 @@
+{
+    "require": {
+        "benmorel/apache-log-parser": "^0.2.0"
+    }
+}

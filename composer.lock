@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "404ff37cc48f9acc9270afeacd52f3ae",
+    "packages": [
+        {
+            "name": "benmorel/apache-log-parser",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BenMorel/apache-log-parser.git",
+                "reference": "9ba342b063488531ff82c06db8f9b97e4397013b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BenMorel/apache-log-parser/zipball/9ba342b063488531ff82c06db8f9b97e4397013b",
+                "reference": "9ba342b063488531ff82c06db8f9b97e4397013b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BenMorel\\ApacheLogParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP library to parse Apache log files",
+            "keywords": [
+                "apache",
+                "log",
+                "parse",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/BenMorel/apache-log-parser/issues",
+                "source": "https://github.com/BenMorel/apache-log-parser/tree/0.2.0"
+            },
+            "time": "2020-12-02T12:44:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
